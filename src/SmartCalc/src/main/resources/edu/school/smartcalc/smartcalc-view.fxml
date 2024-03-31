@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="416.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.school.smartcalc.view.SmartCalcView">
+  <Button fx:id="one" layoutX="37.0" layoutY="275.0" mnemonicParsing="false" onAction="#onButtonOne" prefHeight="50.0" prefWidth="50.0" text="1" />
+  <Button fx:id="two" layoutX="87.0" layoutY="275.0" mnemonicParsing="false" onAction="#onButtonTwo" prefHeight="50.0" prefWidth="50.0" text="2" />
+  <Button fx:id="three" layoutX="137.0" layoutY="275.0" mnemonicParsing="false" onAction="#onButtonThree" prefHeight="50.0" prefWidth="50.0" text="3" />
+  <Button fx:id="four" layoutX="37.0" layoutY="225.0" mnemonicParsing="false" onAction="#onButtonFour" prefHeight="50.0" prefWidth="50.0" text="4" />
+  <Button fx:id="five" layoutX="87.0" layoutY="225.0" mnemonicParsing="false" onAction="#onButtonFive" prefHeight="50.0" prefWidth="50.0" text="5" />
+  <Button fx:id="six" layoutX="137.0" layoutY="225.0" mnemonicParsing="false" onAction="#onButtonSix" prefHeight="50.0" prefWidth="50.0" text="6" />
+  <Button fx:id="seven" layoutX="37.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonSeven" prefHeight="50.0" prefWidth="50.0" text="7" />
+  <Button fx:id="eight" layoutX="87.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonEight" prefHeight="50.0" prefWidth="50.0" text="8" />
+  <Button fx:id="nine" layoutX="137.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonNine" prefHeight="50.0" prefWidth="50.0" text="9" />
+  <Button fx:id="zero" layoutX="37.0" layoutY="325.0" mnemonicParsing="false" onAction="#onButtonZero" prefHeight="50.0" prefWidth="100.0" text="0" />
+  <Button fx:id="point" layoutX="137.0" layoutY="325.0" mnemonicParsing="false" onAction="#onButtonPoint" prefHeight="50.0" prefWidth="50.0" text="." />
+  <Button fx:id="ac" layoutX="37.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonAC" prefHeight="50.0" prefWidth="50.0" text="AC" />
+  <Button fx:id="mod" layoutX="137.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonMod" prefHeight="50.0" prefWidth="50.0" text="mod" />
+  <Button fx:id="div" layoutX="187.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonDiv" prefHeight="50.0" prefWidth="50.0" text="/" />
+  <Button fx:id="mult" layoutX="187.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonMult" prefHeight="50.0" prefWidth="50.0" text="*" />
+  <Button fx:id="minus" layoutX="187.0" layoutY="225.0" mnemonicParsing="false" onAction="#onButtonMinus" prefHeight="50.0" prefWidth="50.0" text="-" />
+  <Button fx:id="plus" layoutX="187.0" layoutY="275.0" mnemonicParsing="false" onAction="#onButtonPlus" prefHeight="50.0" prefWidth="50.0" text="+" />
+  <Button fx:id="equal" layoutX="187.0" layoutY="325.0" mnemonicParsing="false" onAction="#onButtonEquals" prefHeight="50.0" prefWidth="50.0" text="=" />
+  <Button fx:id="sin" layoutX="237.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonSin" prefHeight="50.0" prefWidth="50.0" text="sin" />
+  <Button fx:id="cos" layoutX="237.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonCos" prefHeight="50.0" prefWidth="50.0" text="cos" />
+  <Button fx:id="tan" layoutX="237.0" layoutY="225.0" mnemonicParsing="false" onAction="#onButtonTan" prefHeight="50.0" prefWidth="50.0" text="tan" />
+  <Button fx:id="sqrt" layoutX="237.0" layoutY="275.0" mnemonicParsing="false" onAction="#onButtonSqrt" prefHeight="50.0" prefWidth="50.0" text="sqrt" />
+  <Button fx:id="pow" layoutX="237.0" layoutY="325.0" mnemonicParsing="false" onAction="#onButtonPow" prefHeight="50.0" prefWidth="50.0" text="^" />
+  <Button fx:id="asin" layoutX="287.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonAsin" prefHeight="50.0" prefWidth="50.0" text="asin" />
+  <Button fx:id="acos" layoutX="287.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonAcos" prefHeight="50.0" prefWidth="50.0" text="acos" />
+  <Button fx:id="atan" layoutX="287.0" layoutY="225.0" mnemonicParsing="false" onAction="#onButtonAtan" prefHeight="50.0" prefWidth="50.0" text="atan" />
+  <Button fx:id="log" layoutX="287.0" layoutY="275.0" mnemonicParsing="false" onAction="#onButtonLog" prefHeight="50.0" prefWidth="50.0" text="log" />
+  <Button fx:id="ln" layoutX="287.0" layoutY="325.0" mnemonicParsing="false" onAction="#onButtonLn" prefHeight="50.0" prefWidth="50.0" text="ln" />
+  <Button fx:id="bracketL" layoutX="337.0" layoutY="125.0" mnemonicParsing="false" onAction="#onButtonBracketL" prefHeight="50.0" prefWidth="50.0" text="(" />
+  <Button fx:id="bracketR" layoutX="337.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonBracketR" prefHeight="50.0" prefWidth="50.0" text=")" />
+  <Button layoutX="387.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonX" prefHeight="50.0" prefWidth="50.0" text="x" fx:id="x" />
+  <Button fx:id="graph" layoutX="437.0" layoutY="175.0" mnemonicParsing="false" onAction="#onButtonGraph" prefHeight="50.0" prefWidth="60.0" text="graph" />
+  <Text layoutX="397.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X = " wrappingWidth="29.81399917602539">
+    <font>
+      <Font size="15.0" />
+    </font>
+  </Text>
+  <TextField layoutX="437.0" layoutY="124.0" prefHeight="50.0" prefWidth="60.0" fx:id="xInput" />
+  <TextField fx:id="valueXMax" layoutX="387.0" layoutY="225.0" prefHeight="37.0" prefWidth="110.0" />
+  <TextField fx:id="valueXMin" layoutX="387.0" layoutY="262.0" prefHeight="37.0" prefWidth="110.0" />
+  <TextField fx:id="valueYMax" layoutX="387.0" layoutY="299.0" prefHeight="37.0" prefWidth="110.0" />
+  <TextField fx:id="valueYMin" layoutX="387.0" layoutY="336.0" prefHeight="40.0" prefWidth="110.0" />
+  <TextField fx:id="input" layoutX="33.0" layoutY="14.0" prefHeight="50.0" prefWidth="458.0" promptText="0" />
+  <Button fx:id="ac1" layoutX="87.0" layoutY="124.0" mnemonicParsing="false" onAction="#onButtonAC1" prefHeight="50.0" prefWidth="50.0" text="&lt;=" />
+  <Text layoutX="340.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XMAX" wrappingWidth="43.69599914550781" />
+  <Text layoutX="340.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XMIN" wrappingWidth="43.69599914550781" />
+  <Text layoutX="340.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YMAX" wrappingWidth="43.69599914550781" />
+  <Text layoutX="340.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YMIN" wrappingWidth="43.69599914550781" />
+   <Button layoutX="37.0" layoutY="75.0" mnemonicParsing="false" onAction="#onButtonHistory" prefHeight="50.0" prefWidth="100.0" text="History" />
+   <Button layoutX="137.0" layoutY="75.0" mnemonicParsing="false" onAction="#onButtonClear" prefHeight="50.0" prefWidth="100.0" text="Clear" />
+</AnchorPane>
